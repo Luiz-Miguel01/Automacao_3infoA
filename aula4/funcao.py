@@ -1,3 +1,4 @@
+
 def nome_funcao(entrada1, entrada2):
     #corpo da funcao
     return "saída da função"
@@ -13,15 +14,13 @@ def lerInteiro():
     return int(input())
 
 
-#Como usar essas funções
-imprimir('digite um número 1: ')
+
+imprimir('Digite um número 1: ')
 n1 = lerInteiro()
 
-imprimir('digite um número 2: ')
+imprimir('Digite um número 2: ')
 n2 = lerInteiro()
 
 r = somar(n1, n2)
 
-'\n'
-imprimir(f"o valor da soma de {n1} e {n2} é: {r}")
-'\n'
+imprimir(r)

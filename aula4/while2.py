@@ -4,9 +4,9 @@ while True:
     usuario = input('Digite seu login: ')
     senha = input('Digite sua senha: ')
 
-    if (usuario == 'admin' and senha == '123'):
+    if (usuario == 'admin' and senha=='123'):
         break
-    else:
+    else: 
         print('Falha ao realizar o login')
 
 print('Bem vindo ao sistema')
